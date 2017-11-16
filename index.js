@@ -1,6 +1,6 @@
 function BoardMember(name, home state, training) {
   this.name = name;
-  this.homestate = homestate;
+  this.home state = home state;
   this.training = training;
   this.veto = function veto() {
     return "No, I must disagree";
